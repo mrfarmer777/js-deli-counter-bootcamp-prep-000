@@ -30,4 +30,4 @@ var currentLine=function(katzDeliLine){
   }
   
  return outString; 
-}
+};
