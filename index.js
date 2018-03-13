@@ -25,7 +25,7 @@ var currentLine=function(katzDeliLine){
       }
     }
   } else {
-    outString+" empty.";
+    return outString+" empty.";
   }
   
  return outString; 
