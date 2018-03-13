@@ -2,7 +2,7 @@ var katzDeliLine=[];
 
 var takeANumber =function(katzDeliLine,newName){
   katzDeliLine.push(newName);
-  var greeting = "Welcome, " + newName+". You are number "+ katzDeliLine.length+"in line."
+  var greeting = "Welcome, " + newName+". You are number "+ katzDeliLine.length+" in line."
   return greeting;
 };
 
