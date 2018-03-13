@@ -19,9 +19,9 @@ var currentLine=function(katzDeliLine){
     var outString = "The line is currently";
     for(let i=0;i<katzDeliLine.length;i++){
       if(i===1){
-        outString=outString+": "+i+". "+katzDeliLine[i];
+        outString=outString+": "+(i+1)+". "+katzDeliLine[i];
       } else {
-        outString=outString+", "+i+". "+katzDeliLine[i];
+        outString=outString+", "+(i+1)+". "+katzDeliLine[i];
       }
     }
   } else {
