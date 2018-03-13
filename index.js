@@ -6,7 +6,7 @@ var takeANumber =function(katzDeliLine,newName){
   return greeting;
 };
 
-var newServing=function(katzDeliLine){
+var nowServing=function(katzDeliLine){
   if(katzDeliLine.length>0){
     return katzDeliLine.unshift();
   } else {
