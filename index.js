@@ -24,5 +24,9 @@ var currentLine=function(katzDeliLine){
         outString=outString+", "+i+". "+katzDeliLine[i];
       }
     }
+  } else {
+    outstring+=" empty.";
   }
+  
+ return outString; 
 }
